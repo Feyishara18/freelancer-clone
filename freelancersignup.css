@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+.left{
+    background-color: rgb(252,252,253);
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+   width: 350px;
+   /* background-color: bisque;  */
+   padding: 0 10px;  
+}
+.logo{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.logo img{
+    height: 75px;
+}
+.btn{
+    /* background-color: brown; */
+    /* width: 350px; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px 0 30px 0;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.btn button h5{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.btn button{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn button img{
+    height:28px;
+    width: 32px;
+}
+.btn button:hover{
+    background-color: rgb(228, 234, 236);
+    border: 1px solid rgb(23,114,235);
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+hr{
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.input-box{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+.input-box input{
+    height: 2.7rem;
+    width: 10rem;
+    border: 1px solid lightgrey;
+    transition: 1s; 
+}
+.input-box input:hover{
+    border: 1px solid rgb(23,114,235);
+ }
+.username{
+   justify-content: center;
+   padding-bottom: 20px;
+}
+.username input{
+    width: 100%;
+    height: 2.7rem;
+    border: 1px solid rgb(202, 200, 200);
+    transition: 1s;
+}
+.username input:hover{
+    border: 1px solid rgb(23,114,235);
+ }
+.password{
+    justify-content: center;
+    padding-bottom: 25px;
+ }
+ .password input{
+    width: 100%;
+    height: 2.7rem;
+    border: 1px solid rgb(202, 200, 200);
+    transition: 1s;
+ }
+ .password input:hover{
+    border: 1px solid rgb(23,114,235);
+ }
+
+ .agreement{
+    width: 350px;
+    /* height: 2.7rem; */
+    display: flex;
+    gap: 10px;
+    padding-bottom: 40px;
+ }
+ .agreement input{
+    transform: scale(1.3);
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+ }
+ #remember-me:hover{
+    border: 1px solid rgb(23,114,235);
+ }
+ .join{
+    width: 100%;
+    height: 2.8rem;
+    background-color: rgb(23,114,235);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+ }
+ .dont-have-an-account{
+    text-align: center;
+ }
+ .dont-have-an-account a{
+    text-decoration: none;
+    color: rgb(23,114,235);
+ }
+ .dont-have-an-account a:hover{
+    text-decoration: underline;
+ }
+.right{
+    background: url(bird.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* background-color: brown; */
+}
+.parent img{
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+}
+
+h1:before,
+h1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+
+/* media query */
+@media (max-width:1115px) {
+    .left{
+        width: 65%;
+    }
+    .right{
+        width: 35%;
+    }
+}
+@media (max-width:767px) {
+    .left{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .right{
+        display: none;
+    }
+}
