@@ -983,18 +983,13 @@ header{
   .sec11-2a p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding-top: 15px; */
-    padding-left: 5px;
-    font-size: 16px;
+     /* padding:10px; */
+    /* padding-left: 5px; */
+    font-size: 12px;
   }
   
   .sec11-2ai{
     margin-top: 10px;
-  }
-  
-  .sec11-2ai p{
-    padding-top:4px;
-    font-size: 12px;
   }
   
   .sec11-2ai p:hover{
@@ -1002,13 +997,7 @@ header{
     color: rgb(83, 83, 219);
   }
   
-  .sec11-2a a{
-    color: rgb(230,2,120);
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 25px;
-    padding-left: 5px;
-    text-decoration: none;
-  }
+
   
   .sec11-2a span{
     color: rgb(230,2,120);

@@ -864,7 +864,7 @@ left: 0;
   height: 450px;
   width: 570px;
   border-radius: 5px;
-  transition: transform  1s ease-in-out;
+  transition: transform  0.8s ease-in-out;
 }
 
 .box1a-1{
@@ -873,7 +873,8 @@ left: 0;
 
 .box1a:hover .box1a-1{
   display: block;
-  transform: scale(1.1);
+  transform: scale(1.08);
+  z-index: 5;
 }
 
 .box1a:hover img{
@@ -941,11 +942,16 @@ left: 0;
   font-weight: bold;
   color: white;
 }
-
-
+.box1b-a{
+  transition: transform  0.8s ease-in-out;
+}
 .box1b-a:hover .box1a-1{
-  display: block;
-  transform: scale(1.1);
+  display: flex;
+}
+
+.box1b-a:hover{
+  transform: scale(1.08);
+  z-index: 5;
   
 }
 

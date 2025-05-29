@@ -115,13 +115,21 @@ hr{
  .password input:hover{
     border: 1px solid rgb(23,114,235);
  }
+ .agreement h5{
+    font-weight: 100;
+    font-size: 12px;
+ }
+.oral{
+    font-size:14px;
+}
+ 
 
  .agreement{
     width: 350px;
     /* height: 2.7rem; */
     display: flex;
     gap: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
  }
  .agreement input{
     transform: scale(1.3);
@@ -134,24 +142,47 @@ hr{
  }
  .join{
     width: 100%;
-    height: 2.8rem;
+
+    height:34px;
     background-color: rgb(23,114,235);
     color: white;
     border: none;
     border-radius: 0.2rem;
     margin-bottom: 15px;
     cursor: pointer;
+    /* margin-bottom:120px; */
+ }
+
+ .butty{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-bottom: 1px solid lightgray;
+ }
+
+ .join h2{
+    font-size:15px;
  }
  .dont-have-an-account{
     text-align: center;
+    margin-top: 10px;
+   /* margin-bot: 50px; */
  }
  .dont-have-an-account a{
     text-decoration: none;
-    color: rgb(23,114,235);
+    color:#499ff4;
  }
  .dont-have-an-account a:hover{
     text-decoration: underline;
  }
+ .agreement a{
+    color:#499ff4;
+    font-size: 12px;
+ }
+ .logo img{height:34px;}
 .right{
     background: url(bird.jpg);
     background-size: cover;
@@ -162,6 +193,10 @@ hr{
     top: 0;
     bottom: 0;
     /* background-color: brown; */
+}
+.dont-have-an-account{
+    font-size: 12px;
+    font-weight: 100;
 }
 .parent img{
     height: 100px;
